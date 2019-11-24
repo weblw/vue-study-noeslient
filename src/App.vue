@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <Emitter /> -->
+    <!-- <FormView /> -->
+    <!-- <component-a></component-a> -->
+    <CheckBox />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import Emitter from './Views/Emitter'
+// import FormView from './Views/FormView'
+// import componentA from './components/component-a2'
+import CheckBox from './Views/CheckBox'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    // Emitter,
+    // FormView
+    // componentA
+    CheckBox
   }
 }
 </script>
