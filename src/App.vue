@@ -1,25 +1,12 @@
 <template>
   <div id="app">
-    <!-- <Emitter /> -->
-    <!-- <FormView /> -->
-    <!-- <component-a></component-a> -->
-    <CheckBox />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-// import Emitter from './Views/Emitter'
-// import FormView from './Views/FormView'
-// import componentA from './components/component-a2'
-import CheckBox from './Views/CheckBox'
 export default {
-  name: 'app',
-  components: {
-    // Emitter,
-    // FormView
-    // componentA
-    CheckBox
-  }
+  name: 'app'
 }
 </script>
 
