@@ -7,6 +7,9 @@ import Alert from '../Views/Alert.vue'
 import Form from '../Views/Form.vue'
 import Checkbox from '../Views/Checkbox.vue'
 import Display from '../Views/Display.vue'
+import Render from '../test-code/render/render'
+import Table from '../Views/Table.vue'
+import TableSlot from '../Views/TableSlot.vue'
 
 Vue.use(VueRouter)
 
@@ -30,6 +33,18 @@ const routes=[
   {
     path:'/display',
     component:Display
+  },
+  {
+    path:'/render',
+    component:Render
+  },
+  {
+    path:'/table',
+    component:Table
+  },
+  {
+    path:'/table-slot',
+    component:TableSlot
   }
 ]
 
