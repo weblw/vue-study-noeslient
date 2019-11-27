@@ -10,6 +10,11 @@ import Display from '../Views/Display.vue'
 import Render from '../test-code/render/render'
 import Table from '../Views/Table.vue'
 import TableSlot from '../Views/TableSlot.vue'
+import TableRender from '../Views/TableRender.vue'
+import TableSlotRender from '../Views/TableSlotRender.vue'
+import TreeTest from '../test-code/tree/index.vue'
+import ButtonTest from '../test-code/button/index.vue'
+import Tree from '../Views/Tree.vue'
 
 Vue.use(VueRouter)
 
@@ -45,6 +50,26 @@ const routes=[
   {
     path:'/table-slot',
     component:TableSlot
+  },
+  {
+    path:'/table-render',
+    component:TableRender
+  },
+  {
+    path:'/table-slot-render',
+    component:TableSlotRender
+  },
+  {
+    path:'/tree-test',
+    component:TreeTest
+  },
+  {
+    path:'/button-test',
+    component:ButtonTest
+  },
+  {
+    path:'/tree',
+    component:Tree
   }
 ]
 
